@@ -1,0 +1,40 @@
+@import './liker-animations.css';
+
+.liker-btn {
+  display: block;
+  width: 80px;
+  margin: 250px auto 0;
+
+  position: relative;
+  z-index: 1;
+
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+
+  background-color: #fe0000;
+  color: #fff;
+}
+
+.flying-up,
+.left-to-right {
+  animation-duration: 500ms;
+  animation-timing-function: ease-out;
+}
+
+.flying-up {
+  animation-name: flying-up;
+}
+
+.like_wrapper {
+  position: absolute;
+  pointer-events: none;
+}
+
+.like {
+  width: 30px;
+  height: 30px;
+
+  background-image: url('../img/heart.png');
+  background-size: 30px;
+}

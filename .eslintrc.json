@@ -11,10 +11,8 @@
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
     "max-len": ["error", 80],
     "class-methods-use-this": ["off"],
-    "no-case-declarations": ["off"],
-    "no-return-await": ["off"],
-    "no-param-reassign": ["off"],
-    "indent": ["off"],
+    "prefer-destructuring": ["off"],
+    "no-unused-vars": ["off"],
     "default-case": ["off"]
   }
 }
